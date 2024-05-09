@@ -1,0 +1,169 @@
+@media screen and (max-width: 720px) {
+  
+    .hero h1 {
+        margin-top: 40px;
+        color: #1C4B33;
+        font-size: 1.3rem;
+    }
+
+    .hero h4 {
+        margin-top: 10px;
+        color: #327451;
+        font-weight: normal;
+        font-size: 1.1rem;
+        /* padding-bottom: 5px; */
+    }
+
+  
+    .benefits h2 {
+        color: #1C4B33;
+        font-size: 25px;
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .benefits h5.invoicing {
+        color: #327451;
+        font-size: 17px;
+        font-weight: normal;
+        margin-top: -80px;
+        margin-left: 60px;
+    }
+
+    .card-custome {
+        height: 350px;
+        margin-bottom: 10px;
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    .card-no-custome {
+        height: 450px;
+        margin-bottom: 10px;
+        width: 75%;
+        margin-inline: auto;
+    }
+
+    .operation h2 {
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .operation .card-body {
+        margin-top: -100px;
+        margin-left: 90px;
+    }
+
+    .operation .button-partner-operation {
+        margin-top: -10px;
+        display: block;
+        /* Altera o botão para ser exibido como bloco */
+        margin: 0 auto;
+        /* Centraliza horizontalmente */
+    }
+
+    .partner{
+        background-position: 70% center;
+    }
+
+    .partner p {
+        color: #FAFAFC;
+        font-size: 30px;
+        margin-top: 70px;
+    }
+
+ 
+
+    .partner h3 {
+
+        font-size: 25px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    label {
+        color: #111;
+    }
+
+    .partner .button-subscribe {
+        background-color: #1C4B33;
+        color: #CFF09E;
+
+        display: block;
+        /* Altera o botão para ser exibido como bloco */
+        margin: 0 auto;
+        /* Centraliza horizontalmente */
+    }
+
+    .about .row {
+        flex-direction: column-reverse;
+        /* Reversão da direção da coluna para colocar a imagem acima do texto */
+    }
+
+    .about .col-lg-6 {
+        width: 100%;
+        /* Definir largura de 100% para ocupar toda a largura na tela menor que 720px */
+
+        /* Espaçamento entre a imagem e o texto */
+    }
+
+    .about .button-about {
+        display: block;
+        /* Altera o botão para ser exibido como bloco */
+        margin: 0 auto;
+        /* Centraliza horizontalmente */
+        text-align: center;
+        /* Alinha o texto ao centro */
+    }
+
+    .navbar-toggler-icon {
+        background-color: #111;
+        /* Altere para a cor desejada */
+    }
+
+
+
+
+
+    /* css do menu mobile */
+    .menu-icon,
+    .check-button {
+        cursor: pointer;
+        display: none;
+    }
+
+    .menu-icon .bar1,
+    .menu-icon .bar2,
+    .menu-icon .bar3 {
+        width: 28px;
+        height: 3px;
+        background-color: #1C4B33;
+        margin: 5px 0;
+        transition: 0.4s;
+    }
+
+    .menu-icon,
+    .check-button {
+        display: block;
+    }
+
+    li a {
+        text-decoration: none;
+        color: #111;
+        transition: .5s;
+        font-size: 17px;
+        /* margin-left: 60px; */
+        /* border: 1px solid red; */
+    }
+
+    li.menu-item{
+        margin-left: -60px;
+        margin-top: -10px;
+        line-height: 50px;
+    }
+
+    
+  
+
+
+}

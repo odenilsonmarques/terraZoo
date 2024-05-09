@@ -1,0 +1,249 @@
+/*
+Theme Name: Landing Page Terrazoo
+Theme URI: http://localhost:8170/
+Author: GMZ
+Author URI: http://localhost:8170/
+Version: 1.0
+Text Domain: wp-terrazoo
+Tags: one-column, custom-menu, custom-logo, featured-images, translation-ready
+*/
+
+
+.navbar {
+    margin-top: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: #333333;
+    transition: .5s;
+    font-size: 17px;
+    margin-left: 60px;
+    /* border: 1px solid red; */
+}
+
+li a:hover {
+    color: #922C28;
+}
+
+a.navbar-btn {
+    background-color: #1C4B33;
+    border: none;
+    border-radius: 10px;
+}
+
+a.navbar-btn:hover {
+    background-color: #922C28;
+}
+
+.hero {
+    height: 600px;
+    background-image: url('assets/img/hero-bg-tz.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero h1 {
+    margin-top: 80px;
+    color: #1C4B33;
+    font-size: 30px;
+
+}
+
+.hero h4 {
+    margin-top: 10px;
+    color: #327451;
+
+    font-weight: normal;
+}
+
+.start-here {
+    color: #922C28;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+.benefits .card {
+
+
+    border: none;
+
+}
+
+.card img {
+    padding: 5px;
+    width: 100px;
+}
+
+.card .receita img {
+    /* padding: 5px;  */
+    width: 70px;
+}
+
+.benefits {
+    margin-top: 60px;
+}
+
+.benefits h2 {
+    color: #1C4B33;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.benefits h5 {
+    color: #1C4B33;
+    font-size: 18px;
+
+
+    /* font-weight: normal; */
+}
+
+.benefits h5.invoicing {
+    color: #327451;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: -18px;
+}
+
+.benefits p {
+    color: #1C4B33;
+    font-size: 15px;
+}
+
+
+#value-months {
+    font-weight: bolder;
+}
+
+.card-custome {
+    height: 450px;
+}
+
+.benefits .button-partner {
+    background-color: #1C4B33;
+    margin-top: 50px;
+}
+
+.operation {
+    margin-top: 60px;
+}
+
+
+.operation h2 {
+    color: #1C4B33;
+    font-size: 32px;
+    /* font-weight: normal; */
+}
+
+.operation p {
+    color: #1C4B33;
+    font-size: 16px;
+    /* font-weight: normal; */
+}
+
+.operation h5.invoicing {
+    color: #1C4B33;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.operation .button-partner-operation {
+
+    text-align: center;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    float: right;
+    background-color: #1C4B33;
+}
+
+
+.partner {
+
+    background-image: url('assets/img/tz-dog-bg.webp'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.about h2 {
+    color: #1C4B33;
+    font-size: 32px;
+}
+
+.about p {
+    color: #919191;
+}
+
+.about .button-about {
+    /* color: #1C4B33; */
+    background-color: #1C4B33;
+}
+
+.footer-zoo {
+    height: 100px;
+    /* border: 1px solid red; */
+    background: #337653;
+    margin-top: 90px;
+
+}
+
+.footer-zoo a {
+    color: #FAFAFC;
+}
+
+.link-top {
+    margin-top: -60px;
+}
+
+.text-partner {
+    color: #C9FA9B;
+
+}
+
+.partner p {
+    color: #FAFAFC;
+    font-size: 22px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.partner h3 {
+    margin-top: 70px;
+    color: #FAFAFC;
+}
+
+label {
+    /* color: #FAFAFC; */
+}
+
+.partner .button-subscribe {
+    width: 100%;
+    background: #CFF09E;
+    color: #1C4B33;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.partner .button-subscribe:hover {
+    background: #1C4B33;
+    color: #FAFAFC;
+
+}
+
+.custom-logo-link img {
+    max-width: 200px;
+    height: auto;
+}
+
+
+
+
+.error-404 a {
+    font-size: 25px;
+    text-decoration: none;
+    color: #922C28;
+}
